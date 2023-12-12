@@ -99,7 +99,7 @@ public class MySQLDemoPro {
 				qry="SELECT ID,Nombre,Edad,Ciudad from users";
 				rs=stmt.executeQuery(qry);
 				
-                                String filePath = "C:/Users/cvillasanti/Downloads/MysqlDemo/MySQLDemoPro/oradores.xml";
+                                String filePath = "C:/Users/cvillasanti/Desktop/CaC-EjercicioFinalIntegrador-23648/oradores.xml";
               
                                 Path path = Paths.get(filePath);
                                 Files.delete(path);
